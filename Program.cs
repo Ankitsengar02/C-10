@@ -1,4 +1,4 @@
-﻿
+﻿//Yesterday problem--
 // int[] numbers = { 11,22,33,44 };
 // var maxNumber = (from num in numbers
 //                          select num)
@@ -20,6 +20,7 @@
 //     }
 // }
 
+// * operator ---
 // class Program
 // {
 //     static void Main(string[] args)
@@ -29,15 +30,7 @@
 //     }
 // }
 
-// class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         int x = 12 * 30; // Statement 1
-//         Console.WriteLine (x); // Statement 2
-//     }
-// }
-
+// Top-level statements---
 // Console.WriteLine (FeetToInches (30)); // 360
 // Console.WriteLine (FeetToInches (100)); // 1200
 // int FeetToInches (int feet)
@@ -46,6 +39,7 @@
 //  return inches;
 // }
 
+// Create a object---
 // class Program {
 //     public void FeetToInches(int a){
 //         Console.WriteLine(a*12);
@@ -56,6 +50,7 @@
 //     }
 // }
 
+// Writing method return type---
 // class Program {
 //     //public int FeetToInches(int a){
 //     // public static int FeetToInches(int a){
@@ -71,6 +66,7 @@
 //     }
 // }
 
+// Operation on string---
 // class Program1 {
 //     static void Main(string[] args){
 //         string a="ankit";
@@ -84,6 +80,7 @@
 //     }
 // }
 
+// Boolean---
 // class Program {
 //     static void Main(string[] args){
 //         bool a=false;
@@ -95,6 +92,7 @@
 //     }
 // }
 
+// Example of data member and function member---
 // public class UnitConverter
 // {
 //     int ratio;       //feild         //data member
@@ -116,6 +114,7 @@
 //     }
 // }
 
+// Example of static feild and data feild---
 // public class Emp
 // {
 //     public string Name; // Instance field
@@ -137,6 +136,7 @@
 //     }
 // }
 
+// Type Conversion Implicit or Explicit---
 // class Program {
 //     static void Main(string[] args){
 //             int x = 12345; // int is a 32-bit integer
@@ -148,16 +148,17 @@
 //     }
 // }
 
-//     public class ValueType { 
+// Type Conversion Reference Type---
+//     public class ReferenceType { 
 //         public int X; 
 //         public int Y; 
 //         }
 
 // class Program {
 //     static void Main(string[] args){
-//             ValueType v= new ValueType();
+//             ReferenceType v= new ReferenceType();
 //             v.X=7;
-//             ValueType v1= v;
+//             ReferenceType v1= v;
 //             Console.WriteLine(v.X);
 //             Console.WriteLine(v1.X);
 //             v.X=9;
