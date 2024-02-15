@@ -9,6 +9,7 @@
 //     {
 //         public int Ab;
 //     }
+
 // class Program
 // {
 //     static void Main(string[] args)
@@ -18,6 +19,7 @@
 //         Console.WriteLine(a.Ab);
 //     }
 // }
+
 // class Program
 // {
 //     static void Main(string[] args)
@@ -92,6 +94,7 @@
 //         Console.WriteLine("this will print");
 //     }
 // }
+
 // public class UnitConverter
 // {
 //     int ratio;       //feild         //data member
@@ -123,6 +126,7 @@
 //         Count = Count + 1; // Increment the static Count field
 //     }
 // }
+
 // class Program {
 //     static void Main(string[] args){
 //             Emp p1 = new Emp ("Ank");
@@ -143,19 +147,19 @@
 //             Console.WriteLine (z);
 //     }
 // }
+
 //     public class ValueType { 
 //         public int X; 
 //         public int Y; 
 //         }
+
 // class Program {
 //     static void Main(string[] args){
 //             ValueType v= new ValueType();
 //             v.X=7;
 //             ValueType v1= v;
-
 //             Console.WriteLine(v.X);
 //             Console.WriteLine(v1.X);
-
 //             v.X=9;
 //             Console.WriteLine(v.X);
 //             Console.WriteLine(v1.X);
